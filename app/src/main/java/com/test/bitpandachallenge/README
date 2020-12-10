@@ -1,0 +1,54 @@
+1. Show a list of Currency Wallets (Icon, Symbol, balance). 
+   As you can see there is a lot of code reuse, try to improve it 
+   Cryptocoin and Metal are considered as Asset, Fiat and Asset are considered as Currency. 
+   Each Currency has a Wallet, and you can have multiple Wallets per Currency.
+
+  a. for Metals show the name in the list eg.: "Gold" 
+  b. do not show deleted wallets
+  c. Data should only be retrieved from the Repository
+
+2. Sort the list by type : fiat, cryptocoins, metals and the balance of the wallet
+3. Add a functionality to filter Currencies by type (a simple button which rotates the type is enough)
+4. If you click on an entry open a simple DetailView where you show the price of the coin
+   a. use precision to format the price with correct amount of decimal places
+   b. Prices are euro prices
+
+5. Test your implementation with Unit Tests
+
+
+GENERAL
+
+* You are free to refactor and improve the given structure. let us know what and why
+* Use an architecture pattern of your choice
+
+NICE TO HAVE 
+* You are free to implement also a nice UI 
+
+
+## Answers
+  2a) 30 Day Fitness Challenge - Workout at Home by Leap Fitness GroupHealth and MEGA by Mega Ltd.
+  What I like about these apps is it very user friendly which maybe one of the reasons for
+  users retention. They provide easy to use features by not overloading the users with tons
+  of complex features and have simple but captivating design. The simplicity and cool features
+  definitely make them worth it.
+
+  2b) For this task, I will first have a discussion with Product owner where I will try to
+  understand all the requirements. I would reiterate the task and its requirements to I have
+  understood everything correctly. Then I will give a brief overview of the confirm if way I am
+  thinking of solving this with performance in mind from android perspective and then later I will
+  dig deep to research and find out all the possible ways of implementation and also decide on the
+  criteria. After this I will weigh in the pros and cons of each method of implementation
+  according to the criteria I defined earlier and select my best option. Then I will present
+  all my findings to them and lastly inform them about my choice and its justification. Then we will
+  discuss and choose the best fitting method. I will also follow the recommended solution of
+  using Material Design guidelines for the app to operate consistently. I will have a brief
+  discussion plan and design everything before I start. After implementing the first draft, I will
+  demonstrate it and after approval I will go on to final finishes.
+
+  2c) Following are some of the projects that I work on during my spare time including some that
+  I collaborate and with a friend and post it in our blog- https://infix.studio/
+    - https://play.google.com/store/apps/details?id=infix.studios.wallpapers
+    - https://play.google.com/store/apps/details?id=studios.infix.notesapp
+    - https://github.com/aishwarya-kamal/Fave_Android
+
+
