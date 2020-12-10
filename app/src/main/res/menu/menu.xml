@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fiat_wallet"
+        android:title="@string/fiat"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/crypto_wallet"
+        android:title="@string/crypto"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/metal_wallet"
+        android:title="@string/metal"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/balance"
+        android:title="@string/balance"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/default_list"
+        android:title="@string/default_list"
+        app:showAsAction="never"/>
+</menu>

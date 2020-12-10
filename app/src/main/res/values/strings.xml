@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BitpandaChallenge</string>
+    <string name="price_details_view">Price: %1$s €</string>
+    <string name="fiat">Fiat</string>
+    <string name="crypto">Crypto</string>
+    <string name="metal">Metal</string>
+    <string name="balance">Balance</string>
+    <string name="default_list">Default</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

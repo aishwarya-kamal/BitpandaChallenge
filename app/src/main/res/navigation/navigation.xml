@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/listOfWalletsFragment">
+    <fragment
+        android:id="@+id/listOfWalletsFragment"
+        android:name="com.test.bitpandachallenge.ui.listofwallets.ListOfWalletsFragment"
+        android:label="Currency Wallets"
+        tools:layout="@layout/fragment_list_of_wallets">
+        <action
+            android:id="@+id/action_listOfWalletsFragment_to_detailsViewFragment"
+            app:destination="@id/detailsViewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsViewFragment"
+        android:name="com.test.bitpandachallenge.ui.walletdetails.WalletDetailsFragment"
+        android:label="Wallet Details"
+        tools:layout="@layout/fragment_wallet_details">
+        <action
+            android:id="@+id/action_detailsViewFragment_to_listOfWalletsFragment"
+            app:destination="@id/listOfWalletsFragment" />
+        <argument
+            android:name="domain"
+            app:argType="com.test.bitpandachallenge.data.local.DomainModel" />
+    </fragment>
+</navigation>
